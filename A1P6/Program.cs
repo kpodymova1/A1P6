@@ -58,12 +58,12 @@ namespace A1P6
             // int[] word = new int[5];
             Console.WriteLine("Now...");
             Console.WriteLine("Note: P = '+'");
-            int letterU= 0;
+            int letterU = P + C - O + U + C - B;
             int letterN = P + C;
             int letterC = B + L - P;
             int letterL = E + R - P;
             int letterE = E + R + O - P - P - P;
-            Console.WriteLine("Letter u = ? " + letterU);
+            Console.WriteLine("Letter u = P + C - O + U + C - B = " + letterU);
             Console.WriteLine("Letter n = P + C = " + letterN);
             Console.WriteLine("Letter c = B + L - P = " + letterC);
             Console.WriteLine("Letter l = E + R - P = " + letterL);
